@@ -1,0 +1,175 @@
+header {
+   width: 100%;
+   background-color: #282525;
+   display: block;
+   height: 230px;
+}
+div.logo{
+   margin-left: -10%
+}
+
+
+nav.menu {
+   width: 100%;
+   background-color:rgb(73, 73, 73);
+}
+
+nav {
+   display: block;
+   float: left;
+}
+nav.menu ul {
+	width: 1200px;
+	margin: 0 auto;
+}
+nav.menu ul li{
+	display: block;
+	width: 265px;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+}
+nav.menu ul li a{
+	text-decoration: none;
+	color:#ffffff;
+	font-family: Palatino Linotype;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+nav.menu ul li a:focus{ 
+		color:#FFFFFF;
+		font-size: 1.6em;
+}
+nav.menu ul li a:hover{      /*con esto creo cambios al pasar el cursor encima de un elemento del listado o navegador*/
+					/*con esto le cambio el color*/
+	font-size: 1.6em;}			/*con esto el tamaño*/
+#tam{
+   height: 25px;
+}
+
+/*HEADER Y MENU DE NAVEGACION ES LO DE ARRIBA,ABAJO EL RESTO....*/
+section {
+   margin-left: 10%;
+   margin-top: 0%;
+   margin-bottom: 10%;
+   background-color:white;
+   border-radius: 40px;
+   width: 80%;
+   opacity: 0.98;
+}
+#left{
+   margin-left: 10%;
+ 
+}
+#heart{
+   height: 40px;
+   width: 40px;
+}
+div{
+   margin-left: 45%;
+   margin-right: 45%;
+}
+form {
+   margin-left: 45%;
+   margin-right: 45%;
+   background-color:white;
+}
+body {
+   background-image: url("imagenes/base.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+#refran_rellenar {
+   padding-top: 5%;
+   text-align: center;
+   clear: both;
+   font-family: 'Lobster', cursive;
+   font-size: 20px;
+   font-weight:bold;
+
+}
+#suici{
+   height: 80px;
+   width: 100px;
+}
+#toy{
+   margin-left: 610px;
+   margin-top: 50px;
+   
+}
+button {
+   opacity: 0.80;
+   background-color: white;
+   border-radius: 10px;
+   font-weight: bold;
+   font-family: 'Lobster', cursive;
+   height: 30px;
+   width: 70px;
+}
+input{
+   width: 65px;
+   border-radius: 10px;
+   height: 20px;
+}
+
+#vid{
+   font-family: 'Lobster', cursive;
+   font-weight: bold;
+}
+#reinicio{
+   width: 150px;
+   font-family: 'Lobster', cursive;
+}
+table{
+margin:auto;
+width: 100%;
+height: 100px;
+text-align: center;
+font-family: 'Lobster', cursive;
+}
+td{
+   width: 33%;
+}
+#reinicio{
+   opacity: 0.80;
+   background-color: white;
+   border-radius: 10px;
+   font-weight: bold;
+   font-family: 'Lobster', cursive;
+   height: 30px;
+   width: 150px;
+}
+#jugar{
+   margin-left: -90%;
+}
+#get_Letter{
+   margin-left: -350%;
+}
+#button1{
+   width: 85px;
+}
+#jugar1{
+   width: 85px;
+   margin-left: -125%
+}
+#reiniciar{
+   margin-left: 25%;
+}
+#win{
+   margin-top: 20%;
+   margin-bottom: 20%;
+   margin-left: -160%;
+   height: 250px;
+   border-radius: 10px;
+   opacity: 0.9;
+}
+#lose{
+   margin-top: 20%;
+   margin-bottom: 20%;
+   margin-left: -160%;
+   height: 250px;
+   border-radius: 10px;
+   opacity: 0.9;
+}
